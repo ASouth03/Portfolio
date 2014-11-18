@@ -72,10 +72,34 @@ ol, ul {
  }
 
 .navbar li:hover {
-    background: #fff;
+    background: #dcddff;
 }
 
 .navbar .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+/* END OF NAVBAR */
+
+/* START OF NAMETAGE SECTION */
+
+.nametag {
+    height:285px;
+    background-color: #6e75ff;
+    font-family: sans-serif, Helvetica;
+}
+
+.nametag h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 6em;
+    line-height: 96px;
+    padding-top: 120px;
+}
+
+.nametag h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
 }
