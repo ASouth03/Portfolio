@@ -80,8 +80,6 @@ ol, ul {
     color: #333333;
 }
 
-/* END OF NAVBAR */
-
 /* START OF NAMETAGE SECTION */
 
 .nametag {
@@ -102,4 +100,32 @@ ol, ul {
     color: #fff;
     text-align: center;
     font-size: 3em;
+}
+
+/* START OF NAME SECTION */
+
+.name {
+    font-family: 'Just Another Hand', cursive, sans-serif, Helvetica;
+    margin-top: 40px;
+}
+
+.name h1 {
+    font-size: 11em;
+    text-align: center;
+}
+
+.name p {
+    font-family: 'Yanone Kaffeesatz', sans-serif, Helvetica;
+    font-size: 40px;
+    text-align: center;
+    color: #7c7c7c;
+}
+
+/* START OF NAMETAG_BOTTOM SECTION */
+
+.nametag_bottom {
+    background-color: #6e75ff;
+    height: 240px;
+    width: 100%;
+    margin-top: 100px;
 }
