@@ -129,3 +129,42 @@ ol, ul {
     width: 100%;
     margin-top: 100px;
 }
+
+/* START OF CASES SECTION */
+
+.cases {
+    background-color: #E0E0E0;
+    overflow: hidden;
+    padding-top: 7.785rem;
+    padding-bottom: 7.785rem;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .devices {
+    width: 33.333%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 4em;
+    margin-right: -4px;
+}
+
+.devices {
+    text-align: center;
+}
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
+    margin-bottom: 7.875rem;
+}
