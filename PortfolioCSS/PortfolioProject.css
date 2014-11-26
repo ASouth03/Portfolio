@@ -139,12 +139,12 @@ body {
 .cases {
     background-color: #E0E0E0;
     overflow: hidden;
-    padding-top: 5.75rem;
-    padding-bottom: 7.785rem;
+    padding-top: 7.785rem;
+    padding-bottom: 8rem;
 }
 
 .cases .content {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color: #1d1e21;
     text-align: center;
 }
@@ -201,4 +201,29 @@ p {
     margin: 0.25em 0 1em 0;
     line-height: 1.75;
     font-size: 1.25rem;
+}
+
+/* START OF ABOUT ME */
+
+.about-me {
+    background-image: url('../img/Portfolio_City_Background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42rem;
+}
+
+.about-me p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 1.250rem;
+}
+
+.about-me .adjustable {
+    width: 25rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    margin-left: 12rem;
+    padding-top: 9rem;
 }
