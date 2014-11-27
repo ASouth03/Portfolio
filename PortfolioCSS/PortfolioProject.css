@@ -218,12 +218,22 @@ p {
     font-size: 1.25rem;
     line-height: 1.5;
     color: black;
-    margin-bottom: 1.250rem;
+}
+
+.about-me .content {
+    padding-top: 7.785rem;
 }
 
 .about-me .adjustable {
-    width: 25rem;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    margin-left: 12rem;
-    padding-top: 9rem;
+    width: 50%;
+    display: inline-block;
+    height: 4em;
+    margin-right: -4px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.adjustable img {
+    margin-top: 2rem;
+    padding-left: 2.5rem;
 }
