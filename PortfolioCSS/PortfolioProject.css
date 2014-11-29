@@ -213,27 +213,30 @@ p {
     height: 42rem;
 }
 
-.about-me p {
+.about-me .content {
+    padding-bottom: 5rem;
+}
+
+.about-me .adjustable {
+    width: 50%;
+    display: inline-block;
+    height: 4rem;
+    margin-right: -4px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.adjustable p {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.5;
     color: black;
 }
 
-.about-me .content {
-    padding-top: 7.785rem;
-}
-
-.about-me .adjustable {
-    width: 50%;
-    display: inline-block;
-    height: 4em;
-    margin-right: -4px;
-    padding-right: 24px;
-    padding-left: 24px;
-}
-
 .adjustable img {
-    margin-top: 2rem;
-    padding-left: 2.5rem;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-top: 10rem;
+    margin-left: 5rem;
 }
