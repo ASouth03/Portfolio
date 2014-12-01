@@ -137,7 +137,7 @@ body {
 /* START OF CASES SECTION */
 
 .cases {
-    background-color: #E0E0E0;
+    background-color: white;
     overflow: hidden;
     padding-top: 7.785rem;
     padding-bottom: 9.75rem;
@@ -174,7 +174,7 @@ body {
     width: 96px;
     height: 96px;
     border: 2px solid #555555;
-    background: #E0E0E0;
+    background: white;
     border-radius: 96px;
     margin: 1.5em auto;
 }
@@ -255,7 +255,36 @@ p {
     text-align: center;
 }
 
-/* START OF FOOTER */
+/* START OF BOTTOM BUTTON */
+
+.top-footer {
+    background-color: #f16162;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.top-footer-button {
+    font-family: 'Yanone Kaffeesatz', sans-serif, Helvetica;
+    width: 12rem;
+    background-color: #f16162;
+    border: 1.5px solid #cfd2d4;
+    text-shadow: none;
+    border-radius: 4.5rem;
+    padding: .4rem 1.5rem;
+    color: #cfd2d4;
+    font-size: 1.85em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: #cfd2d4;
+}
+
+/* START OF FOOTERS */
 
 .social {
     background-color: #4d4d4d;
@@ -269,9 +298,9 @@ p {
     border-radius: 1.75rem;
     width: 3rem;
     height: 3rem;
+    border: 1px solid #cfd2d4;
     display: inline-block;
     margin: 1.25rem 5px;
-    border: 1px solid #cfd2d4;
     text-align: center;
 }
 
@@ -284,9 +313,3 @@ p {
     color: #cfd2d4;
 }
 
-.footer .content p {
-    text-align: center;
-    font-size: 0.5rem;
-    font-weight: 300;
-    color: #838994;
-}
