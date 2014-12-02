@@ -279,10 +279,16 @@ p {
     margin-top: 1rem;
 }
 
+.top-footer-button:hover {
+    background-color: #ee4444;
+    cursor: pointer;
+} 
+
 .btn {
     text-decoration: none;
     color: #cfd2d4;
 }
+
 
 /* START OF FOOTERS */
 
