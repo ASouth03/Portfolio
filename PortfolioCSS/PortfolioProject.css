@@ -253,6 +253,16 @@ p {
     font-size: 5rem;
     color: #f16162;
     text-align: center;
+    margin-bottom: 5rem;
+}
+
+.my_projects {
+    text-align: center;
+}
+
+.my_projects img {
+    width: 500px;
+    height: 235px
 }
 
 /* START OF BOTTOM BUTTON */
