@@ -214,6 +214,7 @@ p {
 
 .about-me .content {
     padding-bottom: 5rem;
+    color: #1d1e21;
 }
 
 .about-me .adjustable {
@@ -229,7 +230,6 @@ p {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.5;
-    color: black;
 }
 
 .adjustable img {
