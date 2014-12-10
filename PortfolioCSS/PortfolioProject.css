@@ -43,8 +43,8 @@ body {
 .navbar {
     background-color: #6e75ff;
     position: fixed;
-    height: 12%;
-    z-index: 70;
+    height: 5rem;
+    z-index: 1000;
     width: 100%;
 }
 
@@ -261,8 +261,9 @@ p {
 }
 
 .my_projects img {
-    width: 500px;
-    height: 235px
+    border: 1.5px solid #cfd2d4;
+    width: 350px;
+    height: 175px;
 }
 
 /* START OF BOTTOM BUTTON */
@@ -329,3 +330,26 @@ p {
     color: #cfd2d4;
 }
 
+/* START OF RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 600px) {
+    .navbar .links {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .cases {
+    padding-bottom: .5rem;
+    }
+
+    .cases .devices {
+        margin-bottom: 15rem;
+        width: 100%;
+        display: block;
+    }
+
+    .adjustable img {
+        margin-left: 10rem;
+    }
+}
