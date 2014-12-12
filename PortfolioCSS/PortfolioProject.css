@@ -352,4 +352,8 @@ p {
     .adjustable img {
         margin-left: 10rem;
     }
+
+    .adjustable p {
+        padding-top: 3rem;
+    }
 }
